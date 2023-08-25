@@ -1,0 +1,78 @@
+[25-06-22 12:54:18] LFS-DIRECTORY > /home/saif/cohort_f11/project_one has been created successfully.
+
+[25-06-22 12:54:18] LFS-DIRECTORY > /home/saif/cohort_f11/project_one/logs has been created successfully.
+
+[25-06-22 12:54:18] LFS-DIRECTORY > /home/saif/cohort_f11/project_one/csv has been created successfully.
+
+[25-06-22 12:54:18] LFS-DIRECTORY > /home/saif/cohort_f11/project_one/archive has been created successfully.
+
+[25-06-22 12:54:18] LFS-DIRECTORY > /home/saif/cohort_f11/project_one/password has been created successfully.
+
+[25-06-22 12:54:18] LFS-PASSWORD FILE > /home/saif/cohort_f11/project_one/password/db_pass.pwd has been created successfully.
+
+[25-06-22 12:54:18] MYSQL DATABASE > DATABASE project_one has been created successfully.
+
+[25-06-22 12:54:18] MYSQL DATABASE > TABLE csv_data has been created successfully.
+
+[25-06-22 12:54:18] MYSQL DATABASE > TABLE r_data has been created successfully.
+
+[25-06-22 12:54:18] HDFS-DIRECTORY > /user/saif/HFS/Output/project_one has been created successfully.
+
+[25-06-22 12:54:18] HDFS-DIRECTORY > /user/saif/HFS/Output/project_one/csv_data has been created successfully.
+
+[25-06-22 12:54:18] HDFS-DIRECTORY > /user/saif/HFS/Output/project_one/csv_data_copy has been created successfully.
+
+[25-06-22 12:54:18] SQOOP JOB > Sqoop Job 'project_one_append_job' has been created successfully.
+
+[25-06-22 12:54:18] HIVE DATABASE > DATABASE project_one has been created successfully.
+
+[25-06-22 12:54:18] HIVE DATABASE > MANAGED TABLE csv_data has been created successfully.
+
+[25-06-22 12:54:18] HIVE DATABASE > EXTERNAL TABLE csv_data_ext has been created successfully.
+
+[25-06-22 12:54:18] HIVE DATABASE > MANAGED TABLE csv_data_alt has been created successfully.
+
+[25-06-22 12:56:02}] LFS to MYSQL > MYSQL Table 'csv_data' has been truncated successfully.
+
+[25-06-22 12:56:02}] LFS to MYSQL > New data has been inserted into csv_data successfully.
+
+[25-06-22 12:56:02}] SQOOP JOB > Sqoop job 'project_one_append_job' has been executed successfully.
+
+[25-06-22 12:56:02}] SQOOP JOB > Data insertion from MYSQL to HDFS is successfully completed.
+
+[25-06-22 12:56:02}] HDFS to HIVE > MANAGED TABLE 'csv_data' has been truncated successfully.
+
+[25-06-22 12:56:02}] HDFS to HIVE > Data insertion from HDFS to MANAGED TABLE 'csv_data' is successfully completed.
+
+[25-06-22 12:56:02}] HDFS to HIVE > Data insertion/updation from 'csv_data' to EXTERNAL TABLE 'csv_data_ext' is successfully completed.
+
+[25-06-22 12:56:02}] HDFS to HIVE > MANAGED TABLE 'csv_data_alt' has been truncated successfully.
+
+[25-06-22 12:56:02}] HDFS to HIVE > Data insertion from 'csv_data' to MANAGED TABLE 'csv_data_alt' is successfully completed.
+
+[25-06-22 12:56:02}] HIVE to MYSQL > Data has been exported successfully from HIVE MANAGED TABLE 'csv_data_alt'to MYSQL TABLE 'r_data'.
+
+[25-06-22 12:56:02}] ALL RECORDS ARE SAME IN csv_data AND r_data.
+
+[25-06-22 12:59:11}] LFS to MYSQL > MYSQL Table 'csv_data' has been truncated successfully.
+
+[25-06-22 12:59:11}] LFS to MYSQL > New data has been inserted into csv_data successfully.
+
+[25-06-22 12:59:11}] SQOOP JOB > Sqoop job 'project_one_append_job' has been executed successfully.
+
+[25-06-22 12:59:11}] SQOOP JOB > Data insertion from MYSQL to HDFS is successfully completed.
+
+[25-06-22 12:59:11}] HDFS to HIVE > MANAGED TABLE 'csv_data' has been truncated successfully.
+
+[25-06-22 12:59:11}] HDFS to HIVE > Data insertion from HDFS to MANAGED TABLE 'csv_data' is successfully completed.
+
+[25-06-22 12:59:11}] HDFS to HIVE > Data insertion/updation from 'csv_data' to EXTERNAL TABLE 'csv_data_ext' is successfully completed.
+
+[25-06-22 12:59:11}] HDFS to HIVE > MANAGED TABLE 'csv_data_alt' has been truncated successfully.
+
+[25-06-22 12:59:11}] HDFS to HIVE > Data insertion from 'csv_data' to MANAGED TABLE 'csv_data_alt' is successfully completed.
+
+[25-06-22 12:59:11}] HIVE to MYSQL > Data has been exported successfully from HIVE MANAGED TABLE 'csv_data_alt'to MYSQL TABLE 'r_data'.
+
+[25-06-22 12:59:11}] ALL RECORDS ARE SAME IN csv_data AND r_data.
+

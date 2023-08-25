@@ -1,0 +1,19 @@
+PROJECT_DIR=/home/saif/cohort_f11/project_one
+LOG_DIR=${PROJECT_DIR}/logs
+CSV_DIR=${PROJECT_DIR}/csv
+ARCHIVE_DIR=${PROJECT_DIR}/archive
+PASSWORD_DIR=${PROJECT_DIR}/password
+
+DATE_TODAY=`date '+%d-%m-%y %H:%M:%S'`
+LOG_FILE_NAME=${LOG_DIR}/ots_log.log
+
+HOST=localhost
+PORT_NO=3306
+DB_NAME=project_one
+USERNAME=root
+PASSWORD=Welcome@123
+PASSWORD_FILE=file://${PASSWORD_DIR}/db_pass.pwd
+TABLE_NAME=csv_data
+TABLE_NAME2=r_data
+OP_DIR=/user/saif/HFS/Output
+
